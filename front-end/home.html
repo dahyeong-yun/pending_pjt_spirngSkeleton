@@ -10,6 +10,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+	<!-- 아이콘(fontawesome) -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- 개별 설정 -->
     <link rel="stylesheet" href="./custom.css">
 
 	<title>:: Readers ::</title>
@@ -17,7 +21,7 @@
 </head>
 
 <body>
-
+	<!-- 상단 소셜 버튼 -->
 	<div class="small-top">
 		<div class="container">
 			<div class="row">
@@ -30,8 +34,11 @@
 		</div>
 	</div>
 
+	<!-- 상단 고정바 -->
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="#">Readers</a>
+		<a href="#">Login</a>
+		<a href="#">Sign in</a>
 	</nav>
 
     <div class="container my-3">
@@ -50,16 +57,27 @@
                         <img class="card-img-top" src="iloveread.jpg" alt="Card image">
                         <h4 class="card-title">L.A.</h4>
                         <p class="card-text">교양 삼아 한달에 한권 책 읽어 보는 모임</p>
-                        <p>시간 : 4주차 금요일 PM 7시</p>
-                        <p>장소 : 강남역 부근</p>
+
+						<div class="main-club-discription">
+							<p>
+								<i class="far fa-calendar-alt"></i> : 4주차 금요일
+							</p>
+							<p>
+								<i class="far fa-clock"></i> : PM 7시
+							</p>
+							<p>
+								<i class="fas fa-map-marked-alt"></i> : 강남역 부근
+							</p>
+						</div>
                       </div>
+
                       <div class="card-footer">
                           <a href="./clubDetail.html" class="btn btn-primary">자세히 보기</a>
                       </div>
                 </div>
             </div>
 
-			<!-- 예시 card -->
+			<!-- 모임 / card형 -->
             <div class="col-md-3 col-sm-6">
                 <div class="card">
                      <div class="card-header">
@@ -68,12 +86,23 @@
                         <a class="btn btn-danger btn-sm" href="#">독후감</a>
                      </div>
                      <div class="card-body">
-                        <img class="card-img-top" src="iloveread.jpg" alt="Card image">
-                        <h4 class="card-title">L.A.</h4>
-                        <p class="card-text">교양 삼아 한달에 한권 책 읽어 보는 모임</p>
-                        <p>시간 : 4주차 금요일 PM 7시</p>
-                        <p>장소 : 강남역 부근</p>
+                        <img class="card-img-top" src="clube-de-leitura.jpg" alt="Card image">
+                        <h4 class="card-title">주말 독서 삼매경</h4>
+                        <p class="card-text">격주로 주말에 한 권 책 읽어 보는 모임</p>
+
+						<div class="main-club-discription">
+							<p>
+								<i class="far fa-calendar-alt"></i> : 2, 4주차 일요일
+							</p>
+							<p>
+								<i class="far fa-clock"></i> : PM 2시
+							</p>
+							<p>
+								<i class="fas fa-map-marked-alt"></i> : 인하대
+							</p>
+						</div>
                       </div>
+
                       <div class="card-footer">
                           <a href="./clubDetail.html" class="btn btn-primary">자세히 보기</a>
                       </div>
