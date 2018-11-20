@@ -1,0 +1,16 @@
+/* 메인 특성 아이콘 용도 */
+.btn-sm {
+    padding: 0.25rem
+    height: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.main-club-discription > p {
+    margin-bottom : 0rem;
+}
+
+.card-img-top {
+    height: 12rem;
+    width: 14rem;
+    margin-bottom: 0.5rem;
+}
