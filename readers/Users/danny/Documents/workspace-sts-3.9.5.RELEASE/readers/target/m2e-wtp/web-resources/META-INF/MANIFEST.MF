@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: readers
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: danny
+Implementation-Vendor-Id: org.readers
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/readers
+Created-By: Maven Integration for Eclipse
+
