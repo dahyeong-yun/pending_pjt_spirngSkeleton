@@ -11,7 +11,7 @@ public class MemberMapperTest extends ReadersApplicationTests{
 	@Autowired
 	private MemberMapper mapper;
 	
-	@Test
+/*	@Test
 	public void testInsert() throws Exception {
 		MemberVO vo = new MemberVO();
 		
@@ -20,5 +20,5 @@ public class MemberMapperTest extends ReadersApplicationTests{
 		vo.setMem_email("tester@gmail.com");
 		
 		mapper.create(vo);
-	}
+	}*/
 }
