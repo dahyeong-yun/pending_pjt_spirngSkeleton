@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # spring-skeleton
 
 **Spring MVC Defalut Setting Project**
@@ -54,3 +55,17 @@
   
   ```
 
+=======
+# spring-readingClub
+독서 모임을 위한 서비스
+
+## Tech Stack
+- HTML5
+- CSS3
+- Javascript(vanilla)
+- jQuery (-> Vue.js or React.js)
+- JSP (Thymeleaf)
+
+- Spring Boot
+- MySQL (MongoDB)
+>>>>>>> 2c5ca5fc02c52c086ed3c837b9d5fd8a6632cbfe
