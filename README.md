@@ -53,3 +53,20 @@
   ```xml
   
   ```
+  
+- `web.xml`
+
+  - context configuration
+    - 설정파일에 맞는 .xml 설정
+  - context loader listener
+  - dispatcher servlet 설정
+    - 설정파일에 맞는 .xml 설정
+  - filter(한글)
+
+  ```
+  
+  ```
+
+  
+
+## Step 4. Database
