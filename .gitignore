@@ -97,8 +97,7 @@ hs_err_pid*
 
 # End of https://www.gitignore.io/api/java,eclipse
 
-## custom
-
+# custom
 target/
 src/main/webapp/WEB-INF/config/application/datasource.xml
 src/test/setting/
