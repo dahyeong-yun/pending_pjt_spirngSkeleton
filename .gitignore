@@ -100,3 +100,5 @@ hs_err_pid*
 ## custom
 
 target/
+src/main/webapp/WEB-INF/config/application/datasource.xml
+src/test/setting/
