@@ -22,10 +22,12 @@
 
 
 
-## Step 2.  Eclipse prepference
+## Step 2.  Eclipse Setting
 
 - utf-8
-
+- Eclipse Market Place 
+  - Memory Analyzer
+  - STS
   
 
 ## Step 3. Maven Project
@@ -66,7 +68,24 @@
   ```
   
   ```
-
   
 
-## Step 4. Database
+## Step 4. Database(Oracle)
+- db jdbc
+- spring-jdbc
+- web.xml > applicationContext -> root-context.xml(datasource.xml)
+
+
+## Step 5. Log(log4j)
+
+- `pom.xml`에 maven 의존성 추가 
+- `web.xml` 에 설정파일 경로 추가
+	- source
+		```xml
+			<!-- log4j setting -->
+			<context-param>
+				<param-name>log4jConfigLocation</param-name>
+				<param-value>/WEB-INF/config/log4j.xml</param-value>
+			</context-param>
+		```
+	
